@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim's Idle Game</title>
+
+    <script src="main.js" type="text/javascript"></script>
+    <script src="combat.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Tim's Idle Game</h1>
+    <div></div>
+    <h3>Your Stats</h3>
+    <p id="attackStat">Attack: 1</p>
+    <p id="defenseStat">Defense: 1</p>
+    <p id="healthStat">Health: 10</p>
+    <div></div>
+    <h3>Your Inventory</h3>
+    <p id="coinsInInventory">Coins: 0</p>
+    <div></div>
+    <h3>Shop</h3>
+    <button onclick="upgradeAttack()" id="upgradeAttack">Improve Attack. Cost: 10</button>
+    <button onclick="upgradeDefense()" id="upgradeDefense">Improve Defense. Cost: 10</button>
+    <button onclick="upgradeHealth()" id="upgradeHealth">Improve Health. Cost: 20</button>
+    <div></div>
+    <button onclick="upgradeCoinMultiplier()" id="upgrade">Raise Multiplier (Current: 1x) Cost: 10</button>
+</body>
+</html>
